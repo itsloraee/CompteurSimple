@@ -13,16 +13,12 @@ return (
         >
         <Text style={styles.buttonText}>Ajouter +1 </Text>
         </TouchableOpacity>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+        <TouchableOpacity style={styles.button}
+        onPress={()=> setCount(0)}
+        >
+            <Text style={styles.buttonText}>Réinitialiser</Text>
+        </TouchableOpacity>
         </View>
   );
 }
